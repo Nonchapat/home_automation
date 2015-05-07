@@ -17,7 +17,7 @@ class RaspiGData :
  def __init__(self):
          config  = ConfigParser.ConfigParser()
          config.read(conf_file)
-  self.ready=False
+         self.ready=False
          self.source=config.get('gdrive','source')   
          self.username=config.get('gmail','user')
          self.pwd=config.get('gmail','pwd')
