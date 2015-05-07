@@ -15,7 +15,7 @@ import RPi.GPIO as GPIO
 import ConfigParser
 import sys
 
-conf_file="gdrive.conf"
+conf_file="gdrive_conf.conf"
 
 #################################################
 class Uploader(threading.Thread):
