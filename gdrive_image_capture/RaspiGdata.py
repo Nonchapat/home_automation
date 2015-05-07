@@ -10,7 +10,7 @@ import gdata.docs.data
 import gdata.docs.client
 import ConfigParser
 
-conf_file="gdrive.conf"
+conf_file="gdrive_conf.conf"
 
 class RaspiGData :
 
