@@ -10,7 +10,7 @@ import pygame.image
 import time
 import ConfigParser
 
-conf_file="gdrive.conf"
+conf_file="gdrive_conf.conf"
 
 class ImageCapture:
 
